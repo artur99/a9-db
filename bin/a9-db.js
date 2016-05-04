@@ -54,4 +54,5 @@ function a9_get_all(dbname){
             });
         }
     }
+    return functions_object;
 }
