@@ -1,25 +1,23 @@
 {
-  "name": "slug",
-  "version": "0.9.1",
-  "homepage": "https://github.com/dodo/node-slug",
+  "name": "a9-db",
+  "version": "0.0.1",
+  "homepage": "https://github.com/artur99/a9-db",
   "authors": [
-    "▟ ▖▟ ▖ <dodo.the.last@gmail.com>"
+    "artur99 <office@artur99.net>"
   ],
-  "description": "slugifies even utf-8 chars!",
-  "main": "slug.js",
+  "description": "Fast and simple storage plugin for node.js",
+  "main": "bin/a9-db.js",
   "moduleType": [
-    "amd",
-    "globals",
     "node"
   ],
   "keywords": [
-    "slugify",
-    "slug",
-    "string",
-    "utf8",
-    "utf-8",
-    "unicode",
-    "url"
+    "simple",
+    "json",
+    "storage",
+    "files",
+    "folders",
+    "database",
+    "simpliest"
   ],
   "license": "MIT",
   "ignore": [

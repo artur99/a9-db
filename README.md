@@ -6,7 +6,7 @@ Storage plugin for node.js
 `npm install a9-db`
 
 #Example
-```
+```js
 var db = {
     users: require('a9-db').init('users'),
     logs: require('a9-db').init('users'),
