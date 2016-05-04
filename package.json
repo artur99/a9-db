@@ -1,0 +1,62 @@
+{
+  "author": {
+    "name": "artur99",
+    "url": "https://github.com/artur99"
+  },
+  "bin": {
+    "slug": "bin/a9-db.js"
+  },
+  "bugs": {
+    "url": "https://github.com/artur99/a9-db/issues"
+  },
+  "dependencies": {
+
+  },
+  "description": "Simpliest database storage ever",
+  "devDependencies": {
+
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "af08f608a7c11516b61778aa800dce84c518cfda",
+    "tarball": "https://registry.npmjs.org/slug/-/slug-0.9.1.tgz"
+  },
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "gitHead": "ff7426b2fdc084df4ac1ba058ad1ddda62ea2030",
+  "homepage": "https://github.com/artur99/a9-db",
+  "keywords": [
+    "simple",
+    "json",
+    "storage",
+    "files",
+    "folders",
+    "database",
+    "simpliest"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/dodo/node-slug/raw/master/LICENSE"
+    }
+  ],
+  "main": "bin/a9-db.js",
+  "maintainers": [
+    {
+      "email": "office@artur99.net",
+      "name": "artur99"
+    }
+  ],
+  "name": "slug",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/artur99/a9-db.git"
+  },
+  "scripts": {
+
+  },
+  "version": "0.0.1"
+}
