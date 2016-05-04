@@ -34,11 +34,11 @@ function a9_filter_name(name){
     return name;
 }
 function a9_get_all(dbname){
-    return {
+    var functions_object = {
         dbn: function(){
             return dbname;
         },
-        put: function(filename, data){
+        set: function(filename, data){
             var filn = a9_filter_name(filename);
             if(typeof data != 'string') data = JSON.stringify(data);
             fs.writeFile(a9_dbfoldername+'/'+dbname+'/'+filn+'.data', data, 'utf8');
@@ -47,6 +47,9 @@ function a9_get_all(dbname){
             var filn = a9_filter_name(filename);
             fs.readFile(a9_dbfoldername+'/'+dbname+'/'+filn+'.data', 'utf8', function (err,data) {
                 if(err) data=null;
+                try{
+                    data = JSON.parse(data);
+                }catch(e){}
                 cb(data, err);
             });
         }
