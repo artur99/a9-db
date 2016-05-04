@@ -3,7 +3,9 @@ Storage plugin for node.js
 
 #Install
 
-`npm install a9-db`
+```
+npm install a9-db
+```
 
 #Example
 ```js
