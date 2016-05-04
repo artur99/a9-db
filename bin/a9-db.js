@@ -29,6 +29,7 @@ function a9_main_init(foldername){
 function a9_filter_name(name){
     if(typeof name == 'undefined') return 'main';
     var tofilter = '\\ / : * ? " < > |'.split(' ');
+    name = name.toString();
     for(var i in tofilter)
         name = name.replace(tofilter[i], '-');
     return name;
