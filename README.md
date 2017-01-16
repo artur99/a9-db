@@ -9,14 +9,12 @@ npm install a9-db
 
 #Example
 ```js
-var db = {
-    users: require('a9-db').init('users'),
-    logs: require('a9-db').init('users'),
+var db_users = require('a9-db').init('users');
+var db_logs = require('a9-db').init('logs');
 
-};
-db.users.set('user7', {data_object:'data'});
+db_users.set('user7', {data_object:'data'});
 
-db.logs.get('user7', function(obj,err){
+db_users.get('user7', function(obj,err){
     console.log(obj);
 })
 
