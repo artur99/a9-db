@@ -1,13 +1,14 @@
 # a9-db
+## About
 Storage plugin for node.js. All the data will be stored in folders & files in a folder called `.a9db` in the root in a JSON format.
 
-#Install
+## Installation
 
 ```shell
 npm install a9-db
 ```
 
-#Example
+## Example
 ```js
 var users = require('a9-db').init('users');
 
@@ -19,7 +20,7 @@ users.get('user7', function(obj,err){
 
 ```
 
-#API
+## Usage
 ```js
 var db = require('a9-db').init('users');
 //will return the database object
