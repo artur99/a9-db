@@ -1,4 +1,5 @@
 # a9-db
+[![npm version](https://badge.fury.io/js/a9-db.png)](https://badge.fury.io/js/a9-db)
 ## About
 Storage plugin for node.js. All the data will be stored in folders & files in a folder called `.a9db` in the root in a JSON format.
 
