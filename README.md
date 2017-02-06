@@ -1,5 +1,5 @@
 # a9-db
-Storage plugin for node.js
+Storage plugin for node.js. All the data will be stored in folders & files in a folder called `.a9db` in the root in a JSON format.
 
 #Install
 
