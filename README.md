@@ -4,7 +4,7 @@ Storage plugin for node.js. All the data will be stored in folders & files in a 
 #Install
 
 ```shell
-$ npm install a9-db
+npm install a9-db
 ```
 
 #Example
